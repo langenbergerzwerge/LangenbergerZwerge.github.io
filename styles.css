@@ -62,9 +62,9 @@ body, html {
 
   
   .container img {
-    width: 100%;
+    width: 90%;
     height: auto; /* Автоматическая высота для сохранения пропорций */
     display: block;
-    margin-top: 130px; /* Отступ от заголовка */
+    margin-top: 110px; /* Отступ от заголовка */
   }
   
