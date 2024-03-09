@@ -65,6 +65,6 @@ body, html {
     width: 90%;
     height: auto; /* Автоматическая высота для сохранения пропорций */
     display: block;
-    margin-top: 110px; /* Отступ от заголовка */
+    margin-top: 150px; /* Отступ от заголовка */
   }
   
