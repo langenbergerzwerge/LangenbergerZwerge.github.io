@@ -18,7 +18,10 @@ body, html {
     transform: translateX(-50%);
     text-align: center;
     font-size: 1.8em;
-    color: #d29a03; /* Цвет текста */
+    color: transparent; /* Скрываем текст */
+    background: linear-gradient(to right, #cb434e, #4ffab0d); /* Градиентный фон */
+    -webkit-background-clip: text; /* Делаем текст прозрачным для градиента */
+    background-clip: text; /* Делаем текст прозрачным для градиента */
     z-index: 1;
     font-family: "Cambria Bold", sans-serif; 
 }
