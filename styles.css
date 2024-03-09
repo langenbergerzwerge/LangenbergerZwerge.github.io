@@ -20,14 +20,25 @@ body, html {
     transform: translateX(-50%);
     text-align: center;
     font-size: 1.8em;
-    color: transparent; /* Прозрачный текст */
     z-index: 1;
     font-family: "Cambria Bold", sans-serif; 
+    color: transparent; /* Скрываем текст */
+}
+
+.container h1::after {
+    content: attr(data-text); /* Значение атрибута data-text в качестве контента псевдоэлемента */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: transparent; /* Скрываем текст */
     background: linear-gradient(to right, #4CAF50, #45a049); /* Градиентный фон для текста */
     -webkit-background-clip: text; /* Определение области фона для текста */
     background-clip: text; /* Определение области фона для текста */
-    -webkit-text-fill-color: transparent; /* Скрытие цвета текста */
+    z-index: -1; /* Помещаем градиентный текст под основным текстом */
 }
+
   
   .container img {
     width: 100%;
