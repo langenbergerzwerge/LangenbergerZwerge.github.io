@@ -63,9 +63,11 @@ body, html {
 
   
   .container img {
-    width: 90%;
+    width: 100%;
     height: auto; /* Автоматическая высота для сохранения пропорций */
     display: block;
     margin-top: 150px; /* Отступ от заголовка */
+    margin-left: auto; /* Центрируем изображение по горизонтали */
+    margin-right: auto;
   }
   
