@@ -33,7 +33,7 @@ body, html {
     width: 100%;
     height: 100%;
     color: transparent; /* Скрываем текст */
-    background: linear-gradient(to right, #4CAF50, #45a049); /* Градиентный фон для текста */
+    background: linear-gradient(to right, #cb434e, #ffab0d); /* Градиентный фон для текста */
     -webkit-background-clip: text; /* Определение области фона для текста */
     background-clip: text; /* Определение области фона для текста */
     z-index: -1; /* Помещаем градиентный текст под основным текстом */
