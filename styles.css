@@ -45,6 +45,7 @@ body, html {
     z-index: 1;
     font-family: "Cambria Bold", sans-serif; 
     color: transparent; /* Скрываем текст */
+     white-space: nowrap; /* Предотвращаем перенос текста на две строки */
 }
 
 .container h1::after {
