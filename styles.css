@@ -11,16 +11,17 @@ body, html {
     overflow: hidden;
   }
   
-  .container h1 {
+.container h1 {
     position: absolute;
     top: 20px; /* Отступ от верхнего края */
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
     font-size: 1.8em;
-    color: #f61668; /* Цвет текста */
+    color: #d29a03; /* Цвет текста */
     z-index: 1;
-  }
+    font-family: "Cambria Bold", sans-serif; 
+
   
   .container img {
     width: 100%;
